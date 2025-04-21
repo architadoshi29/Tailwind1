@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+
+
+
+.pyc{
+    padding-block: 80px;
+    border: 3px solid black;
+}
+.pxc{
+    padding-inline: 70px;
+}
+.bowl{
+    word-spacing: 8px;
+}
+.hoverbase:hover{
+
+
+
+    background: black;
+    color: white;
+}
+.enjoy:hover{
+    filter: brightness(50%);
+}
+
+
+
+.hoverbase:hover h1{
+    color: white;
+}
+.hihi{
+    overflow: hidden;
+    
+}
+.hi{
+    overflow: hidden;transition: 2s;
+}.hoverhi:hover{
+
+    background-color: #c5a880 ;color: black;
+    
+}
+    
+    .jet:hover{
+    background-color:  #c5a880;
+    color: white
+;border: 3px solid black;
+transform: scale(1.2);}
+.jet{
+    transition: 3s;
+}
+
+.hi:hover{
+    transform: scale(1.1);
+   background: #c5a880; color: white;
+}
+.hello:hover{
+color: black
+}.smile{
+    transition: 2s;
+}
+.hello{
+    transition: 2s;
+}
+.smile:hover{
+
+    background-color: black;
+    color: white;
+}
+.mishty{
+    width: 100%;
+    /* height: 400px; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   height: 200px;
+   background-position: center;
+    background-image: url("../background.jpg");
+    background-size: cover;
+    display: flex;justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.mishty::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.389);
+}
+.mishty  h1{
+    /* font-size: 100px; */
+    color: white;
+    position: relative;
+}
+.mishty button{
+    color: white;
+    position: relative;}
+
+    .mishty1{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .mishty1::before{
+        content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.389);
+    }
+    .mishty1 h4{
+        color: white; position: relative;
+
+    }
+    .mishty1 h3{
+        color: white; position: relative;
+
+    }
+    .mishty1 img{
+        color: white; position: relative;
+
+    }
+    .feb{
+        padding-block: 30px ;
+        padding-inline: 10px;
+    }
+    .march{
+        padding-inline: 30px;
+    }
+    .feb:hover{
+
+        background: black;
+        color: white;
+       
+    }.febs{
+        padding-inline: 30px;
+        padding-block: 50px
+    }
+    .febp:hover{
+color: red;        
+    }
+    .febp{transition: 1.2s;}
+    .restro:hover{
+background: black;
+    }
+    .box{
+        padding-block:  38px;
+    }
+@media only screen and (min-width: 0px) and (max-width:375px){
+
+.mishty{
+
+    height: 300px;
+}
+.pxc{
+    padding-inline: 20px;
+}}
+@media only screen and (min-width: 376px) and (max-width:900px){
+
+    .mishty{
+        height: 300px;
+    }
+    .pxc{padding-inline: 10px;}
+}
+
